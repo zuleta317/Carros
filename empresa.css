@@ -1,0 +1,92 @@
+/* Estilos Globales */
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Página de Bienvenida */
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2a47;
+  color: white;
+  text-align: center;
+}
+
+.welcome-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.welcome-content .btn {
+  background-color: #ff5733;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.welcome-content .btn:hover {
+  background-color: #ff2900;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e2a47;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.6rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* Hero */
+.hero {
+  background-image: url('assets/images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ff5733;
+  font-size: 1.2rem;
+  padding: 12px 25px;
+}
+
+.hero .btn:hover {
+  transform: scale(1.1);
+}
