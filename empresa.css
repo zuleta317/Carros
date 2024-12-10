@@ -1,51 +1,15 @@
 /* Estilos Globales */
 body {
   font-family: 'Exo 2', sans-serif;
-  background-color: #fafafa;
+  background-color: #ffffff;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
-/* Página de Bienvenida */
-.welcome-page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1e2a47;
-  color: white;
-  text-align: center;
-}
-
-.welcome-content h1 {
-  font-size: 4rem;
-  margin-bottom: 20px;
-}
-
-.welcome-content p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-
-.welcome-content .btn {
-  background-color: #ff5733;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.welcome-content .btn:hover {
-  background-color: #ff2900;
-}
-
 /* Navbar */
 .navbar {
-  background-color: #1e2a47;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000;
 }
 
 .navbar-brand {
@@ -56,6 +20,7 @@ body {
 .nav-link {
   font-size: 1rem;
   padding: 15px;
+  text-transform: uppercase;
 }
 
 /* Hero */
@@ -82,11 +47,65 @@ body {
 }
 
 .hero .btn {
-  background-color: #ff5733;
+  background-color: #000;
   font-size: 1.2rem;
   padding: 12px 25px;
+  text-transform: uppercase;
 }
 
 .hero .btn:hover {
   transform: scale(1.1);
+}
+
+/* Cards de Videos y Fotos */
+.card {
+  background-color: transparent;
+  border: 1px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #fff;
+  color: #333;
+}
+
+.card-body .btn-outline-primary {
+  border-color: #000;
+}
+
+.card-body .btn-outline-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Sección de Fotos */
+.card.bg-secondary {
+  background-color: #333;
+}
+
+/* Botones Sociales */
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Contacto */
+form .btn {
+  background-color: #000;
+  color: #fff;
+}
+
+form .btn:hover {
+  background-color: #333;
 }

@@ -1,0 +1,117 @@
+/* Sección Cuadernos */
+#cuadernos {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #121212, #1c1c1c);
+  padding: 80px 0;
+}
+
+.text-glow {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+.futuristic-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.futuristic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px #ffffff;
+}
+
+.cuaderno-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.8) brightness(0.5);
+  transition: filter 0.3s;
+}
+
+.futuristic-card:hover .cuaderno-image {
+  filter: grayscale(0) brightness(1);
+}
+
+.cuaderno-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.cuaderno-details h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.cuaderno-details p {
+  color: #dcdcdc;
+  margin-bottom: 15px;
+}
+
+.futuristic-btn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.futuristic-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Efectos de luces flotantes */
+.floating-lights {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.light {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #ffffff;
+  animation: floating 5s infinite ease-in-out;
+}
+
+.light:nth-child(1) {
+  top: 20%;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.light:nth-child(2) {
+  top: 50%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.light:nth-child(3) {
+  top: 80%;
+  left: 40%;
+  animation-delay: 4s;
+}
+
+@keyframes floating {
+  0%, 100% {
+      transform: translateY(0) translateX(0);
+  }
+  50% {
+      transform: translateY(-30px) translateX(20px);
+  }
+}

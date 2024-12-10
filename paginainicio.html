@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de amigos dedicados a grabar videos, fotos y contenido sobre carros de lujo.">
+    <title>Car Culture Crew</title>
+
+    <!-- Fuentes Modernas -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="empresa.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Car Culture Crew</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fotos">Fotos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#redes">Redes Sociales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido al Crew de Car Culture</h1>
+            <p>Explora nuestros videos, fotos y contenido sobre los carros más exclusivos.</p>
+            <a href="#videos" class="btn btn-primary">Ver Videos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Videos -->
+    <section id="videos" class="container py-5">
+        <h2 class="text-center">Nuestros Videos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/video1.jpg" class="card-img-top" alt="Video 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Carro en Acción</h5>
+                        <p class="card-text">Mira cómo manejamos los autos más potentes en la pista.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/video2.jpg" class="card-img-top" alt="Video 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafío de Velocidad</h5>
+                        <p class="card-text">Comparativa entre autos de lujo en un circuito de alta velocidad.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/video3.jpg" class="card-img-top" alt="Video 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Carros Customizados</h5>
+                        <p class="card-text">Muestra de los mejores carros customizados de Colombia.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Fotos -->
+    <section id="fotos" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestras Fotos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary">
+                        <img src="assets/images/foto1.jpg" class="card-img-top" alt="Foto 1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary">
+                        <img src="assets/images/foto2.jpg" class="card-img-top" alt="Foto 2">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary">
+                        <img src="assets/images/foto3.jpg" class="card-img-top" alt="Foto 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section id="redes" class="container py-5">
+        <h2 class="text-center">Síguenos en Redes Sociales</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="https://www.instagram.com" class="btn btn-outline-light" target="_blank">Instagram</a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.tiktok.com" class="btn btn-outline-light" target="_blank">TikTok</a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.youtube.com" class="btn btn-outline-light" target="_blank">YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center">Contacto</h2>
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
