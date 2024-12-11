@@ -115,3 +115,8 @@
       transform: translateY(-30px) translateX(20px);
   }
 }
+
+/* Añadido padding-top al body para evitar superposición con la navbar */
+body {
+  padding-top: 70px; /* Ajusta según la altura de la navbar */
+}
