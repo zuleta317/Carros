@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 10px; /* Añadir algo de espacio en los laterales */
 }
 
 .welcome-content h1 {
@@ -54,6 +55,39 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     transition: background-size 0.2s ease-in-out, filter 0.2s ease-in-out;
+    display: inline-block; /* Para que se ajuste al contenido */
+    text-align: center;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .welcome-content h1 {
+        font-size: 3rem; /* Reducir tamaño de la fuente */
+    }
+
+    .welcome-content p {
+        font-size: 1.2rem; /* Reducir tamaño de la fuente */
+    }
+
+    .button {
+        font-size: 1.2rem; /* Reducir tamaño del botón */
+        padding: 0.8rem 2.5rem; /* Ajustar el padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-content h1 {
+        font-size: 2.5rem; /* Ajuste aún mayor en pantallas más pequeñas */
+    }
+
+    .welcome-content p {
+        font-size: 1rem; /* Ajustar el tamaño del párrafo */
+    }
+
+    .button {
+        font-size: 1.1rem; /* Ajuste del tamaño del botón */
+        padding: 0.7rem 2rem; /* Ajuste aún mayor del padding */
+    }
 }
 
 .button:hover {

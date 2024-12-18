@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="paginainicio.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#modelos">Modelos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modelos">Últimos videos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
                     <li class="nav-item"><a class="nav-link" href="Cuadernos.html">Cuadernos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#tecnologia">Tecnología</a></li>
